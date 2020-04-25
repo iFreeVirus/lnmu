@@ -22,7 +22,7 @@ from tg_bot.modules.translations.strings import tld
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help - for all available commands.
 
-Follow Me On Twitter And Instagram @Uncutshot
+Follow Me On Twitter And Instagram @bksinghtech @YourX
 
 
 
@@ -141,7 +141,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/Wolverinexmen_bot?startgroup=botstart"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")],
-                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/UncutShots")]])
+                [InlineKeyboardButton(text="👥 Support Channel", url="https://t.me/bksinghtech")]])
             update.effective_message.reply_text(
                 tld(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
