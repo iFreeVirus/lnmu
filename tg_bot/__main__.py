@@ -22,7 +22,7 @@ from tg_bot.modules.translations.strings import tld
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help - for all available commands.
 
-I'm Follow Me On Twitter And Instagram @Uncutshot
+Follow Me On Twitter And Instagram @Uncutshot
 
 
 
