@@ -22,8 +22,8 @@ from tg_bot.modules.translations.strings import tld
 PM_START_TEXT = """
 Hi {}, my name is {}! If you have any questions on how to use me, read /help - for all available commands.
 
-Follow Me On Twitter And Instagram @bksinghtech 
-Send Your Feedback @XFeedbackBot @YourX
+Follow Me On Twitter And Instagram @bksinghlive
+Send Your Feedback @XFeedbackBot @YourX @bksinghofficial
 
 
 
